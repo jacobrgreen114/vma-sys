@@ -1,0 +1,13 @@
+[package]
+name = "vma-sys"
+version = "0.1.0"
+authors = ["Jacob R. Green"]
+description = "Raw FFI bindings to the Vulkan Memory Allocator library"
+edition = "2021"
+
+[dependencies]
+vulkan-sys = { path = "../vulkan-sys" }
+
+[build-dependencies]
+bindgen = "0.69.4"
+cc = "1.0.94"
