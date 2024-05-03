@@ -3,6 +3,7 @@ name = "vma-sys"
 version = "0.1.0"
 authors = ["Jacob R. Green"]
 description = "Raw FFI bindings to the Vulkan Memory Allocator library"
+license-file = "LICENSE"
 edition = "2021"
 
 [dependencies]
